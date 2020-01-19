@@ -3,7 +3,8 @@
 ## What is asdf-community?
 
 asdf-community is a collaborative, community-driven project for long-term
-maintenance of asdf plugins.
+maintenance of asdf plugins. (This organization is inspired by a coq-community
+project with a similar name.)
 
 ## Who runs this GitHub organization?
 
