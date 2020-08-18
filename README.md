@@ -15,4 +15,4 @@ collaborators of asdf-vm, plugin authors, and maintainers.
 
 If you are a plugin author or maintainer interested in moving your plugins to
 this community organization, please feel free to open an issue at this
-repository or send an e-mail to <imbsky@acm.org> and/or <vborja@apache.org>.
+repository or send an e-mail to <sora@morimoto.io> and/or <vborja@apache.org>.
