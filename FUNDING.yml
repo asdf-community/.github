@@ -1,1 +1,6 @@
-github: [smorimoto, superbrothers, nzws]
+github:
+  - smorimoto
+  - superbrothers
+  - nzws
+custom:
+  - https://paypal.me/soramorimoto
