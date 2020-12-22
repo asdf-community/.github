@@ -14,5 +14,5 @@ collaborators of asdf-vm, plugin authors, and maintainers.
 ## How do I move plugins here?
 
 If you are a plugin author or maintainer interested in moving your plugins to
-this community organization, please feel free to open an issue at this
+this community organization, please feel free to start a discussion at this
 repository or send an e-mail to <sora@morimoto.io> and/or <vborja@apache.org>.
