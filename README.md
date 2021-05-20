@@ -16,3 +16,14 @@ collaborators of asdf-vm, plugin authors, and maintainers.
 If you are a plugin author or maintainer interested in moving your plugins to
 this community organization, please feel free to start a discussion at this
 repository or send an e-mail to <sora@morimoto.io> and/or <vborja@apache.org>.
+
+## Contact
+
+### Matrix
+
+- `#asdf-community:matrix.org`
+
+### Email
+
+- <sora@morimoto.io>
+- <vborja@apache.org>
