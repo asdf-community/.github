@@ -19,8 +19,19 @@ jobs:
       # Dependencies
       - run: brew install shellcheck shfmt
 
+      # Enable only if Makefile exists
+      - id: makefile
+        run: |
+          if [ -f Makefile ]; then
+            echo "exists=true" >>"$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >>"$GITHUB_OUTPUT"
+          fi
+
       # Check formatting with shfmt
       - run: make format-check
+        if: ${{ steps.makefile.outputs.exists == 'true' }}
 
       # Check linting with shellcheck
       - run: make lint
+        if: ${{ steps.makefile.outputs.exists == 'true' }}
