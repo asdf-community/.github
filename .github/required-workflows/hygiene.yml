@@ -26,6 +26,7 @@ jobs:
             echo "exists=true" >>"$GITHUB_OUTPUT"
           else
             echo "exists=false" >>"$GITHUB_OUTPUT"
+            echo "::warning title=No Makefile::No Makefile found, skipping linting and formatting checks"
           fi
 
       # Check formatting with shfmt
