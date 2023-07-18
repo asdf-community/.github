@@ -1,0 +1,48 @@
+name: Bug Report
+description: Create a bug report for the asdf plugin
+labels: ["template: bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Provide environment information
+      description: Please run `asdf info` and paste the results.
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description:
+        Steps to reproduce the behavior, please provide a clear description of
+        how to reproduce the issue. Screenshots can be provided in the issue
+        body below.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description:
+        A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value:
+        Before posting the issue go through the steps you've written down to
+        make sure the steps provided are detailed and clear.
+  - type: markdown
+    attributes:
+      value:
+        Contributors should be able to follow the steps provided in order to
+        reproduce the bug.
+  - type: markdown
+    attributes:
+      value:
+        These steps are used to add integration tests to ensure the same issue
+        does not happen again. Thanks in advance!
