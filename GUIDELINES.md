@@ -4,7 +4,7 @@
 
 ### Workflow
 
-1. Submit a PR to the [infrastructure](https://github.com/rm3l/asdf-community-infrastructure/blob/main/terraform/github/teams.tf) repository to add a team as follows:
+1. Submit a PR to the [infrastructure](https://github.com/asdf-community/infrastructure/blob/main/terraform/github/teams.tf) repository to add a team as follows:
 
    ```hcl
    <PLUGIN NAME> = {
@@ -17,7 +17,7 @@
 
 2. Once the PR is merged, you will be invited to the organisation and then transfer the repository to the organisation.
 
-3. Submit a PR to the [infrastructure](https://github.com/rm3l/asdf-community-infrastructure/blob/main/terraform/github/repositories.tf) repository to put the repository under Terraform control.
+3. Submit a PR to the [infrastructure](https://github.com/asdf-community/infrastructure/blob/main/terraform/github/repositories.tf) repository to put the repository under Terraform control.
 
    > **Note** A dedicated team for the plugin must always be at the top of the team list because the top one will be written to the `CODEOWNERS` file.
 
