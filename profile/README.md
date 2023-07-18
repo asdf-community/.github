@@ -10,7 +10,7 @@ This organisation is run by volunteers, including core members and outside colla
 
 ## How do I move plugins here?
 
-Consult the [GUIDELINES.md](../GUIDELINES.md) page to move the plugin to the organisation.
+Consult the [GUIDELINES.md](https://github.com/asdf-community/.github/blob/master/GUIDELINES.md) page to move the plugin to the organisation.
 
 ## Contact
 
