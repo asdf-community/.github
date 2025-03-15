@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you have information about a security issue or vulnerability in our plugin, please send an e-mail to <sora@morimoto.io> and/or <vborja@apache.org>.
+If you have information about a security issue or vulnerability in our plugin, please send an e-mail to <sora@morimoto.io>.
 
 Please provide as much information as possible:
 
